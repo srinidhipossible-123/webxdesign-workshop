@@ -1,0 +1,27 @@
+h1 {
+    background-color: black;
+}
+
+h2 {
+    color: blueviolet;
+    background-color: rgb(220, 220, 151);
+}
+
+#tagId {
+    column-rule-color: cadetblue;
+    background-color: cornsilk;
+}
+
+.tagclass {
+    color: aqua;
+    background-color: rgb(152, 160, 39);
+    text-align: center;
+    font-size: 30px;
+    border: solid 2px rgb(58, 207, 223);
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    background: linear-gradient(to left, skyblue, lightgreen)
+}

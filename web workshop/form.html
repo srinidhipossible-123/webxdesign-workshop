@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>Form</h1>
+    </div>
+    <form name="formName" onsubmit="return validateForm()">
+        <div>
+            <label for="nameId">Name</label>
+            <span>*</span>
+            <span>:</span>
+            <input type="text" id="nameId" name="nameName" required>
+        </div>
+        <br>
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">other</label>
+            <br><br>
+        </div>
+        <div>
+            <label>Gmail</label>
+            <span>*</span>
+            <span>:</span>
+            <input type="email" id="nameID" email="emailname" required>
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <span>*</span>
+            <span>:</span>
+            <input type="password" placeholder="Password" id="password" required>
+            <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+        </div>
+        <br>
+        <div>
+            <label for="birthday">date of Birth:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <br>
+        <div>
+            <label for="phone number">Phone number</label>
+            <span>*</span>
+            <span>:</span>
+            <input type="tel" id="phone number" name="phone number">
+        </div>
+        <br>
+        <div>
+            <button type="submit" value="submit">submit</button>
+            <button type="clear" value="Clear"onclick="resetForm()">Clear</button>
+        </div>
+    </form>
+</body>
+
+</html>
